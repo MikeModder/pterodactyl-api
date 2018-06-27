@@ -1,0 +1,21 @@
+{
+  "name": "g",
+  "version": "1.0.0",
+  "description": "Interface with PterodactylPanel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint --ext .js lib/",
+    "lint:fix": "./node_modules/.bin/eslint --ext .js lib/ --fix",
+    "gendoc": "./node_modules/.bin/jsdoc lib/*.js"
+  },
+  "author": "MikeModder <oddman56@protonmail.com> (http://github.com/MikeModder)",
+  "license": "ISC",
+  "dependencies": {
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "jsdoc": "^3.5.5"
+  }
+}
